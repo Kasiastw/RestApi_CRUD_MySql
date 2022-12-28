@@ -6,7 +6,6 @@ import (
 )
 
 func RespondwithJSON(w http.ResponseWriter, code int, payload interface{}) {
-	//response, _ := json.Marshal(payload)
 	response, _ := json.MarshalIndent(payload, "", "")
 
 	w.Header().Set("Content-Type", "application/json")

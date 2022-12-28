@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/getground/tech-tasks/backend/cmd/app/handlers.go"
+	"github.com/getground/tech-tasks/backend/cmd/app/handlers"
 	"github.com/getground/tech-tasks/backend/cmd/app/server"
 	"os"
 	"testing"

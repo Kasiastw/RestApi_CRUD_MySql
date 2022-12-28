@@ -3,7 +3,7 @@ package api
 import (
 	"database/sql"
 	"fmt"
-	"github.com/getground/tech-tasks/backend/cmd/app/handlers.go"
+	"github.com/getground/tech-tasks/backend/cmd/app/handlers"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
